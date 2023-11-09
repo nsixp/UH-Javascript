@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 7</title>
+</head>
+<body>
+    <form>
+    <label for="jumlah_makanan">Jumlah Makanan:</label>
+    <input type="number" id="jumlah_makanan" name="jumlah_makanan" min="0" max="10"><br><br>
+    <label for="jumlah_minuman">Jumlah Minuman:</label>
+    <input type="number" id="jumlah_minuman" name="jumlah_minuman" min="0" max="10"><br><br>
+    <button type="button" onclick="hitungTotal()">Hitung Total</button>
+    </form>
+
+    <p id="total_harga"></p>
+
+    <script src="main.js"></script>
+</body>
+</html>

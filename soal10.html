@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 10</title>
+</head>
+<body>
+    <form>
+    <label for="harga_barang">Harga Barang:</label>
+    <input type="number" id="harga_barang" name="harga_barang" min="0" max="1000000"><br><br>
+    <label for="uang_dibayarkan">Uang Dibayarkan:</label>
+    <input type="number" id="uang_dibayarkan" name="uang_dibayarkan" min="0" max="1000000"><br><br>
+    <button type="button" onclick="hitungKembalian()">Hitung Kembalian</button>
+    </form>
+
+    <p id="kembalian"></p>
+
+    <script src="main.js"></script>
+</body>
+</html>
